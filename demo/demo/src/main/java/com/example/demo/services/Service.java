@@ -7,5 +7,5 @@ public class Service {
         StringBuilder string = new StringBuilder(characters).reverse();
         return string.toString();
     }
-    
+
 }
