@@ -3,6 +3,9 @@ package com.example.demo.services;
 
 public class Service {
 
-
-
+    public String reverseCharacters(String characters) {
+        StringBuilder string = new StringBuilder(characters).reverse();
+        return string.toString();
+    }
+    
 }
